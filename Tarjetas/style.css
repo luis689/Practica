@@ -24,6 +24,9 @@ body {
     flex-direction: column;
 
     transition: all 0.3s ease;
+
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.3), -4px 0 10px rgba(0, 0, 0, 0.2),
+    -5px 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .cards .card a {
@@ -52,4 +55,25 @@ body {
 
 .cards .card .header .title {
     font-size: 28px;
+}
+
+.cards .card[class*='element'] {
+    margin-left: -100px;
+}
+
+.element-1:hover 
+.element-1:hover  {
+    margin-left: -130px;
+}
+
+.cards .card .footer img {
+    width: 48px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.cards .card .footer .autor a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
